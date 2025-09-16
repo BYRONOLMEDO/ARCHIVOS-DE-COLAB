@@ -1,0 +1,89 @@
+# === Python / Colab ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Archivos de entorno y configuración
+.env
+.venv/
+venv/
+ENV/
+.ipynb_checkpoints/
+*.sqlite3
+
+# === Google Colab ===
+# Archivos temporales y de sistema
+/content/sample_data/
+drive/
+gdrive/
+*.ckpt
+
+# === Datos grandes ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.ods
+*.db
+*.sqlite
+
+# === Modelos y binarios pesados ===
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pb
+*.weights
+
+# === 3D / Assets ===
+*.blend1
+*.blend2
+*.blend@
+*.fbx
+*.mtl
+*.dae
+*.3ds
+
+# Mantener solo los necesarios, ignorar cachés grandes
+*.glb
+*.gltf
+*.obj
+!assets/*.glb
+!assets/*.obj
+
+# === Imágenes / Render ===
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.gif
+*.svg
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Solo guardar imágenes en /assets o /images
+!assets/**
+!images/**
+
+# === Jupyter / Colab outputs pesados ===
+*.out
+*.bak
+*.orig
+*.json
+
+# === Sistema operativo ===
+Thumbs.db
+ehthumbs.db
+Icon?
+.DS_Store
